@@ -9,6 +9,13 @@ function add(): number {
 }
 
 // 함수의 타입을 정의하는 방식
-function temp(a:number, b:number):number {
+function temp(a: number, b: number): number {
     return a + b;
 }
+
+// 함수의 옵셔널 파라미터
+function log(a: string, b?: string){
+
+}
+log('hello');
+log('one','hello');
