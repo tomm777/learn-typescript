@@ -36,3 +36,37 @@ interface StringArray {
 
 var arr: StringArray = ['a','b','c'];
 arr[0] = 'abc';
+
+// 딕셔너리 패턴
+interface StringRegexDictionary {
+    [key: string]: RegExp;
+}
+var obj: StringRegexDictionary = {
+    // sth: /abc/,
+    cssFile: /\.css$/,
+    jsFile: /\.js$/,
+}
+// obj['cssFile'] = 'a'
+
+Object.keys(obj).forEach(function(value){
+
+})
+
+// 인터페이스 확장
+interface Person {
+    name: string;
+    age: number;
+    language: string;
+}
+
+interface Developer extends Person {
+    language: string;
+}
+
+var capt: Developer = {
+    language : "KR",
+    name : "Tom",
+    age : 12
+}
+
+
