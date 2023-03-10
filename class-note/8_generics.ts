@@ -40,7 +40,7 @@ interface Dropdown<T>{
     value: T;
     selected: boolean;
 }
-const obj: Dropdown<string> = {value: 'abc', selected: false}
+const OBJ: Dropdown<string> = {value: 'abc', selected: false}
 
 // 제네릭의 타입 제한
 

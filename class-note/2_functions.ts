@@ -1,4 +1,4 @@
-function sum(a:number,b:number){
+function sumplus(a:number,b:number){
     return a + b
 }
 sum(10,20);
